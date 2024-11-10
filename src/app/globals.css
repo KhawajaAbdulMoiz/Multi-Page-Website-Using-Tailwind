@@ -1,0 +1,310 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 575.98px){
+    /* HEADER */
+
+    .header{
+        display: none;
+    }
+    .header-logo{
+        width: 165.4px;
+        height: 22.87px;
+        margin-left: 153px;
+    }
+
+
+    /* MAIN PAGE */
+    .main-div{
+        display: flex;
+        flex-direction:column ;
+    }
+    .main-text{
+        text-align: center;
+        margin-left: 20%;
+    }
+    h2.main-heading{
+        font-size:25px;
+    } 
+    h1.main{
+        font-size: 84px;
+    }
+
+    /* SECOND PAGE */
+
+    .sec-main{
+        display: flex;
+        flex-direction:column ;
+    }
+
+    /* THIRD PAGE */
+
+    .trd{
+        display: flex;
+        flex-direction:column ;
+    }
+    .trd-browse{
+        flex: 1 1 48%;
+        flex-wrap: wrap; 
+    }
+    .trd-heading{
+        margin-left: 77px;
+    }
+
+    /* FOURTH PAGE */
+
+    .frt{
+        flex-wrap: wrap; 
+    }
+
+    /* FIFTH PAGE */
+
+    .fft{
+        flex-wrap: wrap-reverse; 
+    }
+
+    /* SIXTH PAGE */
+
+    .sixth{
+        flex-wrap: wrap; 
+    }
+    .sixth-heading{
+        margin-left: 76px;
+    }
+    .banner{
+       
+        height:330px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* HEADER PAGE */
+    .header{
+        display: none;
+    }
+    .header-logo{
+        
+        margin-left: 153px;
+    }
+    /* MAIN PAGE */
+    .main-div{
+        display: flex;
+        flex-direction:column ;
+    }
+    .main-text{
+        text-align: center;
+        margin-left: 20%;
+    }
+    h2.main-heading{
+        font-size:25px;
+    } 
+    h1.main{
+        font-size: 84px;
+    }
+
+    /* SECOND PAGE */
+
+    .sec-main{
+        display: flex;
+        flex-direction:column ;
+    }
+
+    /* THIRD PAGE */
+
+    .trd{
+        display: flex;
+        flex-direction:column ;
+    }
+    .trd-browse{
+        flex: 1 1 48%;
+        flex-wrap: wrap; 
+    }
+    .trd-heading{
+        margin-left: 77px;
+    }
+
+    /* FOURTH PAGE */
+
+    .frt{
+        flex-wrap: wrap; 
+    }
+
+    /* FIFTH PAGE */
+
+    .fft{
+        flex-wrap: wrap-reverse; 
+    }
+
+    /* SIXTH PAGE */
+
+    .sixth{
+        flex-wrap: wrap; 
+    }
+    .sixth-heading{
+        margin-left: 76px;
+    }
+    .banner{
+       
+        height:330px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+     /* HEADER PAGE */
+    .header{
+        display: none;
+    }
+   .search{
+        margin-right: 62%;
+   }
+    /* MAIN PAGE */
+    .main-div{
+        display: flex;
+        flex-direction:column ;
+    }
+    .main-text{
+        text-align: center;
+        margin-left: 20%;
+    }
+    h2.main-heading{
+        margin-right: 167px;
+        font-size: 24px;
+    } 
+    h1.main{
+        margin-right: 170px;
+        font-size: 75px;
+    }
+    .main-button{
+        margin-right: 170px;
+    }
+    .main-img{
+        margin-right: 170px;
+    }
+
+    /* SECOND PAGE */
+
+    .sec-main{
+        display: flex;
+        flex-direction:column ;
+    }
+
+    /* THIRD PAGE */
+
+    .trd{
+        display: flex;
+        flex-direction:column ;
+    }
+    .trd-browse{
+        flex: 1 1 48%;
+        flex-wrap: wrap; 
+    }
+    .trd-heading{
+        margin-left: 77px;
+    }
+
+    /* FOURTH PAGE */
+
+    .frt{
+        flex-wrap: wrap; 
+    }
+
+    /* FIFTH PAGE */
+
+    .fft{
+        flex-wrap: wrap-reverse; 
+    }
+
+    /* SIXTH PAGE */
+
+    .sixth{
+        flex-wrap: wrap; 
+    }
+    .sixth-heading{
+        margin-left: 76px;
+    }
+    .banner{
+       
+        height:330px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+     /* HEADER PAGE */
+     .header{
+        display: none;
+     }
+    /* MAIN PAGE */
+    .main-div{
+        display: flex;
+        flex-direction:column ;
+    }
+    .main-text{
+        text-align: center;
+        margin-left: 20%;
+    }
+    h2.main-heading{
+        margin-right: 167px;
+        font-size: 24px;
+    } 
+    h1.main{
+        margin-right: 170px;
+        font-size: 75px;
+    }
+    .main-button{
+        margin-right: 170px;
+    }
+    .main-img{
+        margin-right: 170px;
+    }
+
+    /* SECOND PAGE */
+
+    .sec-main{
+        display: flex;
+        flex-direction:column ;
+    }
+
+    /* THIRD PAGE */
+
+    .trd{
+        display: flex;
+        flex-direction:column ;
+    }
+    .trd-browse{
+        flex: 1 1 48%;
+        flex-wrap: wrap; 
+    }
+    .trd-heading{
+        margin-left: 77px;
+    }
+
+    /* FOURTH PAGE */
+
+    .frt{
+        flex-wrap: wrap; 
+    }
+
+    /* FIFTH PAGE */
+
+    .fft{
+        flex-wrap: wrap-reverse; 
+    }
+
+    /* SIXTH PAGE */
+
+    .sixth{
+        flex-wrap: wrap; 
+    }
+    .sixth-heading{
+        margin-left: 76px;
+    }
+    .banner{
+       
+        height:330px;
+    }
+  }
