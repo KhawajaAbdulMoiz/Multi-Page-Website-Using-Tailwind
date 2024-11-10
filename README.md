@@ -1,8 +1,7 @@
-# Figma Design Replica
+# Multi Page Website
 
-## Overview
 
-This project is a replication of a design created in Figma, built using Next.js. It showcases my ability to translate design concepts into functional web applications while utilizing modern web technologies.
+## Milestone Project GIAIC
 
 ## Technologies Used
 
